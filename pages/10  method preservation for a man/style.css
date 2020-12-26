@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: #DCC697;
+  font-size: 18px;
+}
+.heading {
+  background-image: url(image/hqdefault.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: cover;
+  font-family: Courier;
+  padding: 2% 0% 0% 8%;
+  width: 100vw;
+  min-height: 65px;
+  background-color: #b895b3;
+}
+.heading-list li {
+  text-align: center;
+  list-style: none;
+  max-width: 100px;
+}
+.heading-list li:hover {
+  transform: scale(1.1);
+  letter-spacing: 0.05em;
+  background-color: #2be231;
+}
+main {
+  background-image: url(image/Condoms-ru.jpg);
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
+  background-size: contain;
+  font-family: Georgia;
+  min-height: 70vh;
+  width: 100vw;
+}
+.content {
+  padding: 0% 5%;
+  width: 100vw;
+  text-align: justify;
+  margin: 4% 0%;
+  border-bottom: 1px solid gray;
+}
+.cotent-title {
+  color: #862597;
+  width: 90vw;
+  text-align: center;
+}
+.content-text {
+  color: #E01E1E;
+  text-align: justify;
+  width: 90vw;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.footing {
+  background-image: url(image/Ussrcondom1955.jpg);
+  background-repeat: repeat-y;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  font-family: 'Trebuchet MS';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+  padding: 1%;
+  width: 100vw;
+  min-height: 75px;
+  background-color: rgb(120, 200, 186);
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+.footing-button {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 7px;
+}
+button {
+  padding: 0.5% 2%;
+  border: none;
+  border-radius: 10%;
+  width: 65px;
+}
+button:hover {
+  background-color: rgb(43, 226, 49);
+  border: 1px solid white;
+  opacity: 0.8;
+  transform: scale(1.2);
+}
+.audio {
+  max-width: 200px;
+  height: 20px;
+}

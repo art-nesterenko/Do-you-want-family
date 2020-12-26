@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/bp.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  max-width: 1440px;
+  min-height: 900px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  background-color: #98ff32;
+  color: #f9f1e5;
+}
+.heading {
+  background-image: url(img/kak-sdelat-stojlo-dlya-korovy.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  min-height: 65px;
+  background-color: #13f848;
+}
+.heading-list li {
+  list-style: none;
+  width: 110px;
+  height: 20px;
+  margin-left: 10%;
+}
+.heading-list li:hover {
+  background-color: #fff700;
+  letter-spacing: 0.3em;
+  font-family: fantasy;
+  font-weight: 700;
+  font-style: italic;
+}
+.main {
+  width: 100vw;
+  min-height: 80vh;
+}
+.main-content {
+  width: 92vw;
+  padding: 0% 5%;
+  margin-left: 6%;
+}
+.main .main-content:last-child {
+  margin-bottom: 15%;
+}
+.content-title {
+  text-align: center;
+}
+.content-text {
+  text-align: justify;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-list {
+  margin-left: 6%;
+}
+.footing {
+  background-image: url(img/266d997a6bb9d0df81e29e62e8667384.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-top: 3%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 45px;
+  background-color: #fd5507;
+}
+button {
+  border-radius: 7%;
+  width: 65px;
+  border: none;
+}
+button:hover {
+  transform: scale(1.2);
+  background-color: #13f848;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #ff0000;
+}

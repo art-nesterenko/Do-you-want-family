@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: #009688;
+}
+.heading {
+  background-image: url(img/unnamed.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 1% 0 0 8%;
+  width: 100vw;
+  min-height: 60px;
+  background-color: chartreuse;
+  font-family: 'gill sans';
+  margin-bottom: 2%;
+}
+.heading-list li {
+  list-style: none;
+  margin-right: 1%;
+  float: left;
+}
+.heading-list li:hover {
+  background-color: #fae104;
+  transform: translateY(5px);
+}
+.main {
+  width: 100vw;
+  min-height: 80vh;
+}
+.content {
+  width: 100vw;
+  padding: 0 2% 0 2%;
+  margin-bottom: 2%;
+}
+.content-title {
+  width: 90vw;
+  padding: 0% 5%;
+  text-align: center;
+  margin-bottom: 1%;
+  font-family: Times;
+}
+.content-text {
+  width: 90vw;
+  padding: 0% 5%;
+  text-align: justify;
+  font-family: Times;
+}
+.content-text::first-letter {
+   margin-left: 20px;
+   color: red;
+}
+.main .content:last-child {
+  width: 95vw;
+  margin: 0% 1% 0% 4%;
+  padding: 2% 1% 2% 4%;
+}
+.content-image { 
+  margin-left: 5%;
+  width: 70vw;
+}
+.footing {
+  background-image: url(img/depositphotos_6079990-stock-photo-jail-indoor.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Verdana;
+  width: 100vw;
+  min-height: 45px;
+  background-color: #00d0ff;
+}
+a {
+  color: #fb0909;
+  text-decoration: none;
+}
+.bold {
+  font-weight: 800;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  width: 65px;
+  padding: 0 1% 0 1%;
+  border: none;
+  border-radius: 7%;
+}
+button:hover {
+  background-color: #c8dc14;
+  transform: scale(1.1);
+  color: #ffffff;
+  border: 2px groove white;
+}
+cite {
+  margin-left: 6%;
+}
+.footing p:first-letter {
+  color: black;
+}
+@media (max-device-width:845px) {
+  .footing p {
+    font-size: 10px;
+  }
+  /*.content-image {
+    margin-left: 10%;
+  }*/
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  position: absolute;
+  max-width: 1440px;
+  min-height: 900px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading {
+  background-image: url(img/surrogatnoe_materinstvo.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /*background-clip: border-box;*/
+  background-size: cover;
+  padding: 0.1% 0 0 10%;
+  width: 100vw;
+  min-height: 80px;
+  background-color: #00f81d;
+}
+.heading-list li {
+  list-style: none;
+  margin-bottom: 0.2%;
+  width: 75px;
+  height: 19px;
+}
+.heading-list li:hover {
+  background-color: #ffee01;
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  transform: translateX(10px);
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+cite {
+  margin-left: 5%;
+  color: #22aae4;
+  opacity: 0.1;
+  cursor: pointer;
+}
+cite:hover {
+  color: #ff0000;
+  transform: scale(1.25);
+  transform: translateX(10px);
+  opacity: 1;
+}
+.main {
+  background-image: url(img/b9e77e07187aa8337560fe9d1d80e9fc-egg-donation-surrogacy.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  min-height: 76vh;
+}
+.main-content {
+  padding: 0% 3%;
+  width: 100vw;
+}
+.content-title {
+  width: 85vw;
+  margin: 1% 0 1% 0;
+  text-align: center;
+}
+.content-text {
+  width: 85vw;
+  margin: 1% 0 1% 0;
+  text-align: justify;
+  padding: 0% 5%;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.footing {
+  background-image: url(img/11-1-840x480-c-1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /*background-origin: border-box;*/
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 45px;
+  margin-top: 3%;
+  background-color: #f88d00;
+}
+button {
+  border-radius: 7%;
+  border: none;
+  width: 65px;
+}
+button:hover {
+  transform: scale(1.15);
+  border: 1px groove white;
+  background-color: #00f81d;
+  color: white;
+}

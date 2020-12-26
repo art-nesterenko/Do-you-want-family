@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+  max-width: 1440px;
+  min-height: 80vh;
+}
+.heading {
+  background-image: url(image/1.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 55px;
+  background-color: #eeff7f;
+  padding: 1% 0 0 10%;
+  margin-bottom: 2%;
+}
+.heading-list li {
+  float: left;
+  margin-left: 2%;
+  list-style: none;
+  width: 75px;
+}
+.heading-list li a:hover {
+  background-color: #18fff7;
+  transform: scale(1.2);
+}
+.main {
+  background-image: url(image/abortion_01.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ACDE72;
+  width: 100vw;
+  min-height: 80vh;
+}
+.content {
+  margin-bottom: 2.5%;
+  padding:0 5% 0 5%;
+  width: 100vw;
+}
+.content-title {
+  text-align: center;
+  margin-bottom: 1%;
+}
+.content-text {
+  color: #4e2314;
+  text-align: justify;
+  width: 90vw;
+  padding: 0% 5%;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.footing {
+  background-image: url(image/picture.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 60px;
+  margin-top: 3%;
+  background-color: #ff7fbf;
+}
+cite {
+  margin-left: 5%;
+  padding: 0% 5%;
+  max-width: 80vw;
+}
+a {
+  margin-right: 2%;
+  text-decoration: none;
+  text-align: center;
+}
+button {
+  border: none;
+  width: 65px;
+  padding: 0;
+  border-radius: 7%;
+  cursor: pointer;
+}
+button:hover {
+  border:1px groove #ffffff;
+  background-color: #ACDE72;
+  transform: scale(1.2);
+  color: #ffffff;
+}

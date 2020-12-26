@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body { background-image: url(img/250px-Rsp_3.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: aqua;
+  font-family: Georgia;
+}
+.heading {
+  background-image: url(img/026bdf99c563111a65a3b4726691e747.jpeg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 12vh;
+  background-color: #98fa67;
+}
+.heading-list li {
+  width: 65px;
+  margin-left: 10%;
+  list-style: none;
+}
+.heading-list li:hover {
+  text-align: center;
+  width: 135px;
+  background-color: #f2ff00;
+  transform: scale(1.05);
+  transform: translateX(10px);
+  letter-spacing: 0.5em;
+}
+.main {
+  width:100vw;
+ min-height: 78vh;
+}
+.main-content {
+  padding: 0% 5%;
+  margin-bottom: 2%;
+  max-width: 90vw;
+}
+.content-title {
+  color: #FF3D00;
+  width: 90vw;
+  padding-left: 5%;
+  text-align: center;
+}
+.content-text {
+  color: #D15731;
+  margin-left: 8%;
+  text-align: justify;
+}
+.content-list {
+  max-width: 80vw;
+  margin-left: 12%;
+  text-align: justify;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-picture {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 90vw;
+}
+.content-picture-image {
+  width: 280px;
+  margin: 3% 7% 3% 10%;
+  transition: opacity 1.5s ease-in;
+}
+.content-picture-image:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.footing {
+  background-image: url(img/34b68f1bf859360dfcfc3bf703c5ae4f.jpeg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #ff5e00;
+}
+button {
+  width: 65px;
+  border-radius: 7%;
+  border:none;
+}
+button:hover {
+  border: 2px groove white;
+  transform: scale(1.2);
+  color: #ffffff;
+  background-color: #6aff00;
+}
+a {
+  text-decoration: none;
+}
+cite {
+  margin-left: 8%;
+}

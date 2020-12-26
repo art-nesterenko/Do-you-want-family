@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c9deca;
+  max-width: 1440px;
+  height: 900px;
+}
+.heading {
+  background-color: rgb(243, 236, 23);
+  background-image: url(img/14103625.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  background-position:center;
+  font-family: 'Times New Roman';
+  padding: 2%;
+  width: 100vw;
+  min-height: 60px;
+}
+.main {
+  font-family: 'Segoe UI';
+  width: 100vw;
+  min-height: 85vh; 
+}
+.content {
+  width: 100vw;
+ padding: 2%;
+}
+.content-text  {
+  width: 90vw;
+  text-align: justify;
+  margin: 1% 1%;
+  padding: 0 5%;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-title {
+  text-align: center;
+}
+.content-list {
+  margin: 1% 2%;
+}
+.main .content:last-child {
+  margin-bottom: 18%;
+  color:#795548;
+  font-style: italic;
+}
+.footing {
+  background-image: url(img/14103627.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  width: 100vw;
+  min-height: 45px;
+  background-color: #c7d400;
+  font-family: Arial;
+}
+.footing button {
+  width: 65px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+.footing button:hover {
+  border: 1px solid #f0f0ee;
+  background-color: #39be1e;
+  border-radius: 10%;
+  color: #f0f0ee;
+  transform: scale(1.2);
+}
+.heading-list {
+  margin-top: 3%;
+  display:flex;
+  justify-content:space-around;
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: italic;
+}
+.heading-list a{
+  text-decoration: none;
+  color: #f13030;
+}
+.heading-list li:hover{
+  background-color: #23fbed;
+  transform: scale(1.2);
+  transform:translateY(-10px);
+}
+.content-list {
+  margin: 1% 10%;
+}
+main .content:first-child {
+  color:#4CAF50;
+  font-weight: 700;  
+}
+@media(max-device-width:300px) {
+  .heading-list{display: block;
+  }
+}

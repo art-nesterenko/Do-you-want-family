@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: burlywood;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a {
+  color: #ddff00;
+  text-decoration: none;
+}
+.heading-list li {
+  margin-left: 10%;
+  list-style: none;
+  width: 75px;
+  height: 20px;
+}
+.heading-list li:hover {
+  background-color: #7a4c10;
+  transform: scale(1.2);
+  transform: translateX(10px);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+.heading{
+  background-image: url(img/no-name.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2px;
+  height: 8vh;
+  width: 100vw;
+  background-color: aquamarine;
+}
+.main {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.left-side-navigate{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 3%;
+  padding: 2px 0% 2px 8px;
+  width: 6px;
+  height: 78vh;
+  border: 2px solid red;
+  background-color: #1f8a40;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.2s;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9;
+  right: 0%;
+  top: 2vh;
+}
+.left-side-navigate:hover{
+  width: 250px;
+  overflow-y: scroll;
+  opacity: 0.75;
+}
+.left-side-navigate-list li {
+  list-style: none;
+}
+.footing{
+  background-image: url(img/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  width: 100vw;
+  background-color: rgb(127, 255, 131);
+}
+button {
+  font-style: italic;
+  color: rgb(251, 22, 22);
+  border-radius: 7%;
+  width: 55px;
+  border: none;
+}
+button:hover {
+  background-color: #00ff1e;
+  border: 1px solid white;
+  transform: scale(1.2);
+  color: #ffffff;
+}
+.page-tpbingo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  min-height: 80vh;
+  background-image: url(img/alenina.jpg);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-attachment: scroll;
+  background-position: center;
+  animation-name: run-screensaver;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-play-state: running;
+}
+@keyframes run-screensaver {
+  0%{
+    background-position: 50% 50%;
+  }
+  10%{ 
+    background-position: 0% 0%;
+  }
+  20%{   
+    background-position: 100% 0%;
+  }
+  30%{
+    background-position: 100% 100%;
+  }
+  40%{
+    background-position: 0% 100%;
+  }
+  50%{
+    background-position: 0% 0%;
+  }
+  60%{
+    background-position: 100% 100%;
+  }
+  70%{
+    background-position: 0% 100%;
+  }
+  80%{
+    background-position: 100% 0%;
+  }
+  90%{
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 50% 50%;
+  }
+}
+.bingo-cell{
+  display: block;
+  overflow: hidden;
+  padding-top: auto;
+  padding-bottom: auto;
+  width: 20vw;
+  height: 16vh;
+  /*background-color: rgb(167, 163, 62);*/
+  opacity: 0.3;
+  border: 2px solid rgb(255, 0, 149);
+  /*border-image: url(img/alen-icon.png);*/
+  cursor: pointer;
+}
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  font-size: 20px;
+}
+.bingo-cell p:first-child{
+  margin-top: 3%;
+ color: #000;
+}
+.bingo-cell p:nth-child(2){
+  color: #2424d9;
+  font-size: 18px;
+ }
+ .bingo-cell p:last-child{
+  color: #BB1215;
+  font-size: 22px;
+ }
+ .page-tpbingo .bingo-cell:nth-child(5n+5){
+   background-color: rgb(200, 127, 255);
+ }
+ .page-tpbingo .bingo-cell:nth-child(5n+4){
+  background-color: rgb(255, 246, 127);
+}
+.page-tpbingo .bingo-cell:nth-child(5n+2){
+  background-color: rgb(158, 118, 113);
+}
+.page-tpbingo .bingo-cell:nth-child(5n+1){
+  background-color: rgb(77, 126, 22);
+}
+.page-tpbingo .bingo-cell:nth-child(6n+1){
+  opacity: 0.9;
+}
+.bingo-cell:hover{
+  opacity: 0.95;
+  border-radius: 3%;
+  box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, #ff0000f6 0 -18px 40px, 3px 2px 14px 10px #b0ffbf2e;
+  background-image: url(img/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  /*background-attachment: ;*/
+  background-position: 100% 100%;
+  transform: translateY(-5px);
+}
+@media(max-device-width:720px) {
+  .bingo-cell p:first-child{
+    font-size: 12px;
+  }
+  .bingo-cell p:nth-child(2){
+    font-size: 13px;
+   }
+   .bingo-cell p:last-child{
+    font-size: 15px;
+   }
+   .heading{
+    background-color: #ff7fe8;
+   }
+   .page-tpbingo{
+     background-image: url(img/true_man.jpg );
+   }
+   .footing{
+    background-color: #f6ee04;
+  }
+
+}
+@media (max-device-width:360px){
+  .bingo-cell p:first-child{
+    font-size: 8px;
+  }
+  .bingo-cell p:nth-child(2){
+    font-size: 10px;
+   }
+   .bingo-cell p:last-child{
+    font-size: 11px;
+   }
+   .heading{
+    background-color: #7ffdff;
+   }
+   .page-tpbingo{
+    background-image: url(img/alen-icon.png);
+  }
+  .footing{
+    background-color: #f6042c;
+  }
+
+}

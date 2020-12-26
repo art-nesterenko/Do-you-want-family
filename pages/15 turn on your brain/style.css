@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  font-size: 16px;
+  font-family: cursive;
+}
+.heading {
+  background-image: url(img/kerinejskaya-lan.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+  min-height: 65px;
+  background-color: aqua;
+}
+.heading-list li {
+  list-style: none;
+  width: 110px;
+  margin-left: 10%;
+}
+.heading-list li:hover {
+  background-color: #fbff0e;
+  letter-spacing: 0.25em;
+}
+.main {
+  width: 100vw;
+  padding: 0% 5%;
+  min-height: 80vh;
+}
+.main-content {
+  width: 90vw;
+  padding-left: 5%;
+  margin-bottom: 3%;
+}
+.main .main-content:nth-child(2) {
+  margin-left: 6%;
+  padding-left: 4%;
+  width: 85vw;
+  border-left: 3px groove red;
+}
+.main .main-content:last-child {
+  margin-bottom: 15%;
+}
+.content-title {
+  text-align: center;
+}
+.content-text {
+  text-align: justify;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-list {
+  margin-left: 10%;
+  max-width: 85vw;
+}
+.content-span {
+  font-size: 18px;
+  font-weight: 700;
+}
+cite {
+  margin-left: 10%;
+}
+.footing {
+  background-image: url(img/Apollo-Belvedere-statue.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #07f682;
+  width: 100vw;
+  min-height: 40px;
+}
+button {
+  border-radius: 7%;
+  width: 65px;
+  border: none;
+}
+button:hover {
+  background-color: #ff0000;
+  border: 3px groove white;
+  transform: scale(1.2);
+  color: #ffffff;
+}
+a {
+  color: #f00f0f;
+  text-decoration: none;
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: #c3cfda;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading {
+  background-image: url(img/maxresdefault.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 55px;
+  background-color: #10ff18;
+}
+.heading-list li {
+  width: 100px;
+  height: 20px;
+  list-style: none;
+  margin-left: 10%;
+}
+.heading-list li:hover {
+  background-color: #e5ff00;
+  letter-spacing: 0.2em;
+}
+.main {
+  width: 100vw;
+  min-height: 80vh;
+}
+.main-content {
+  width: 100vw;
+  padding: 2% 5%;
+}
+.main .main-content:last-child {
+  margin-bottom: 15%;
+}
+.content-title {
+  text-align: center;
+  margin: 2% 0%;
+}
+.content-text {
+  text-align: justify;
+  margin: 2% 0%;
+  padding: 0% 5%;
+}
+.content-text::first-letter {
+  margin-left: 20px;
+}
+.content-list {
+  margin-left: 10%;
+  padding-right: 5%;
+  max-width: 95%;
+}
+cite {
+  margin-left: 10%;
+}
+.footing {
+  background-image: url(img/Nota-9684-infidelidad_apropo.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 45px;
+  background-color: #ff1010;
+}
+button {
+  border-radius: 7%;
+  width: 60px;
+  border: none;
+}
+button:hover {
+  transform: scale(1.2);
+  border: 3px groove white;
+  background-color: #10ff68;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #11c026;
+}

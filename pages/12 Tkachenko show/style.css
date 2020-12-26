@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  background-color: #fbde07;
+  background-image: url(image/unnamed.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.heading {
+  background-image: url(image/Screenshot_2020-12-25_145313.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display:flex;
+  padding: 0 0 0 10%;
+  width: 100vw;
+  min-height: 125px;
+  background-color: #cc9d9d;
+}
+.heading-menu li {
+  margin-top: 20px;
+  width: 135px;
+  height: 20px;
+}
+.heading-menu li:hover {
+  text-align: center;
+  background-color: #f0fb1b;
+  color: #ffffff;
+  transform: scale(1.1);
+  transform: translateX(5px);
+  letter-spacing: 0.3em;
+}
+ul{
+  list-style: none;
+  margin-top: 10px; 
+}
+.heading-list {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.heading-list li:hover {
+  width: 40px;
+  height: 40px;
+  background-color: #f0fb1b;
+  transform: scale(1.2);
+}
+a {
+  text-decoration: none;
+  color: #00FF0B;
+}
+.main {
+  width: 100vw;
+  min-height: 76vh;
+}
+.content-video {
+  margin-top: 10%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.video-track {
+  max-width: 35vw;
+}
+.content-video-text {
+  display: flex;
+  margin-top: 2%;
+  font-size: 18px;
+  color: #13f9e3;
+  font-weight:900;
+  font-style: oblique;
+}
+.content-video-text:hover {
+  background-color: #fb1b1b;
+  width: auto;
+  height: 30px;
+}
+.video-track:hover {
+  transform: translateY(25px);
+  transform: scale(1.05);
+}
+.footing {
+  background-image: url(image/Screenshot_2020-12-25_155015.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  min-height: 45px;
+  background-color: rgb(251, 7, 7);
+}
+button {
+  width: 55px;
+  border: none;
+  border-radius: 7%;
+}
+button:hover {
+  background-color: rgb(7, 251, 15);
+  transform: scale(1.1);
+  border: 1px solid white;
+  color: #ffffff;
+}
